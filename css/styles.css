@@ -280,7 +280,7 @@ footer {
     background-color:#2d2d2d;
 }
 
-@media(min-width:768px) {
+@media(min-width:1024px) {
     .icon-lg {
         font-size: 80px;
     }
@@ -322,6 +322,12 @@ footer {
 
 }
 
+@media(max-width:1024px) {
+    header {
+        min-height: 60%;
+    }
+
+}
 .form-control {
     display: block;
     width: 100%;
